@@ -424,15 +424,11 @@ export function CylinderCarousel() {
       <Loader isLoading={isLoading} className="bg-[#000]" classNameLoader="bg-[#fff]" />
 
       <CodropsFrame
-        
-        
-        
-        demos={[
-          { label: 'Demo 1', href: '/', current: true },
-          
-        ]}
-        
-        
+        demos={[]}
+        tags={[]}
+        articleUrl=""
+        githubUrl=""
+        hubUrl=""
       />
 
       <div className="fixed inset-0 w-full h-screen z-0">
