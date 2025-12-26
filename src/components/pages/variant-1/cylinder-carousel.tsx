@@ -423,7 +423,7 @@ export function CylinderCarousel() {
     <>
       <Loader isLoading={isLoading} className="bg-[#000]" classNameLoader="bg-[#fff]" />
 
-      <CodropsFrame
+      {/* <CodropsFrame
         demoTitle="Cinematic 3D Scroll Experiences with GSAP"
         articleUrl="https://tympanus.net/codrops/?p=103299"
         githubUrl="https://github.com/JosephASG/codrops-cinematic-scroll-animations"
@@ -439,7 +439,7 @@ export function CylinderCarousel() {
           'https://tympanus.net/codrops/hub/tag/scroll/',
           'https://tympanus.net/codrops/hub/tag/3d/',
         ]}
-      />
+      /> */} 
 
       <div className="fixed inset-0 w-full h-screen z-0">
         <canvas ref={canvasRef} className="w-full h-full" style={{ display: 'block' }} />
