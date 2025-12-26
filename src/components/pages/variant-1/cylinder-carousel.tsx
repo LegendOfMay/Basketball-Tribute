@@ -439,7 +439,7 @@ export function CylinderCarousel() {
           'https://tympanus.net/codrops/hub/tag/scroll/',
           'https://tympanus.net/codrops/hub/tag/3d/',
         ]}
-      /> 
+      />
 
       <div className="fixed inset-0 w-full h-screen z-0">
         <canvas ref={canvasRef} className="w-full h-full" style={{ display: 'block' }} />
